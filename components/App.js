@@ -46,13 +46,13 @@ App = React.createClass({
         var styles = {
             margin: '0 auto',
             textAlign: 'center',
-            width: '50%'
+            width: '60%'
         };
 
         return (
           <div style={styles}>
-                <h1>Wyszukiwarka GIFów!</h1>
-                <p>Znajdź gifa na <a href='https://giphy.com'>giphy</a>. Naciskaj enter, aby pobrać następny GIF.</p>
+                <h1><span>Wyszukiwarka</span><br>GIFów!</h1>
+                <p>Znajdź gifa na <a href='https://giphy.com'>giphy</a>. Naciskaj enter, aby pobrać następny GIF</p>
                 <Search onSearch={this.handleSearch}/>
             <Gif 
                 loading={this.state.loading}
