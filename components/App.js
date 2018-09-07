@@ -46,7 +46,7 @@ App = React.createClass({
         var styles = {
             margin: '0 auto',
             textAlign: 'center',
-            width: '90%',
+            width: '50%'
         };
 
         return (
