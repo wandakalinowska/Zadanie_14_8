@@ -30,13 +30,7 @@ a {
 	text-decoration: none;
 }
 
-#app {
-	margin-top: 50px;
-}
-
-
 #app > div {
-	width: 60%;
 	border: solid 10px #fafafa;
 	background-color: #6b6767;
 }
